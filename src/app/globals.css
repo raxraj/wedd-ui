@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FFF8F0;
+  --foreground: #2D1B0E;
+
+  /* Indian Wedding Palette */
+  --wedding-maroon: #800020;
+  --wedding-gold: #C9A84C;
+  --wedding-saffron: #FF6700;
+  --wedding-ivory: #FFF8F0;
+  --wedding-rose: #C2185B;
+  --wedding-emerald: #00695C;
+  --wedding-navy: #1A237E;
+
+  /* ShadCN design tokens */
+  --primary: #800020;
+  --primary-foreground: #FFF8F0;
+  --secondary: #FDF0D5;
+  --secondary-foreground: #2D1B0E;
+  --muted: #F5E6D3;
+  --muted-foreground: #7D5A3C;
+  --accent: #C9A84C;
+  --accent-foreground: #2D1B0E;
+  --destructive: #DC2626;
+  --destructive-foreground: #FFFFFF;
+  --border: #E8D5B7;
+  --input: #E8D5B7;
+  --ring: #C9A84C;
+  --card: #FFFFFF;
+  --card-foreground: #2D1B0E;
+  --radius: 0.5rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-wedding-maroon: var(--wedding-maroon);
+  --color-wedding-gold: var(--wedding-gold);
+  --color-wedding-saffron: var(--wedding-saffron);
+  --color-wedding-ivory: var(--wedding-ivory);
+  --color-wedding-rose: var(--wedding-rose);
+  --color-wedding-emerald: var(--wedding-emerald);
+  --color-wedding-navy: var(--wedding-navy);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
